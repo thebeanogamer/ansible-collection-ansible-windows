@@ -16,7 +16,6 @@ BuildArch:      noarch
 BuildRequires:  ansible-packaging
 %if %{with tests}
 BuildRequires:  ansible-packaging-tests
-BuildRequires:  pyproject-rpm-macros
 BuildRequires:  python3dist(mock)
 %endif
 
