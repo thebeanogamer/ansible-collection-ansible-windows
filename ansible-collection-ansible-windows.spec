@@ -1,4 +1,8 @@
-%bcond tests %{undefined rhel}
+%if %{defined fedora}
+%bcond_without tests
+%else
+%bcond_with tests
+%endif
 
 Name:           ansible-collection-ansible-windows
 Version:        2.5.0
