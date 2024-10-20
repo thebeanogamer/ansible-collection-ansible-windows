@@ -8,7 +8,7 @@ Summary:        Windows core collection for Ansible
 License:        GPL-3.0-or-later
 URL:            %{ansible_collection_url ansible windows}
 Source:         https://github.com/ansible-collections/ansible.windows/archive/refs/tags/%{version}.tar.gz
-# build_ignore development files, tests, and docs
+# build_ignore development files, tests, and docs, downstream only
 Patch:          build_ignore.patch
 
 BuildArch:      noarch
