@@ -1,4 +1,4 @@
-spec:=ansible-collection-dellemc-openmanage
+spec:=ansible-collection-ansible-windows
 
 srpm:
 	cp ./build_ignore.patch $(shell rpmbuild --eval %{_sourcedir})
